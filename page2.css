@@ -1,0 +1,117 @@
+.button {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+  }
+  
+  .button:hover,
+  .button:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+  
+  .button:hover {
+    transform: translateY(-1px);
+  }
+  
+  .button:active {
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+  }
+  body {
+    margin:0px;
+  }
+  .center {
+    margin: 40px;
+  }
+  .topbar{
+    overflow: hidden;
+    background: #C8CBD0;
+    box-shadow: 0px 4px 0 0 #4D5259;
+  }
+  
+  .topbar a {
+    background: #748E54;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    box-shadow: 4px 0px 0 0 #54673C;
+  }
+  
+  .topbar a:hover {
+    background-color: #92AC72;
+    color: black;
+  }
+  
+  .topbar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .round{
+    font-size: 12px;
+    color: #4D5259;
+    line-height: 1.5;
+    font-weight: bold;
+    padding: .5em 2em;
+    background: #FFFFFF;
+    border: 2px solid #4D5259;
+    box-shadow: 4px 4px 0 0 #4D5259;
+    border-radius: 100px;
+    outline:0;
+    transition: ease all .1s;
+  } 
+  .round:active {
+    transform: translateY(4px) translateX(4px);
+    box-shadow: 0px 0px 0 0 #4D5259;
+  }
+  .round:hover {
+    background: #d3d3d3;
+  }
+  
+  .settings {
+    font-size: 10px;
+    color: #4D5259;
+    line-height: 1.5;
+    font-weight: bold;
+    padding: .5em 2em;
+    background: #FFFFFF;
+    border: 2px solid #4D5259;
+    box-shadow: 4px 4px 0 0 #4D5259;
+    outline:0;
+  }
+  
+  .settings:active {
+    transform: translateY(4px) translateX(4px);
+    box-shadow: 0px 0px 0 0 #4D5259;
+  }
+  .settings:hover {
+    background: #d3d3d3;
+  }
